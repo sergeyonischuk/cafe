@@ -36,7 +36,7 @@ public class Menu {
 		
 	public void printMenu(){
 		for(int i = 0; menu[i] != null; i++){
-		System.out.println(menu[i].getProdName() + ". Price: " + this.ingredient.getPrice());
+		System.out.println(menu[i].getProdName() + ". Price: " /** КАААААК? **/);
 
 		}
 		
